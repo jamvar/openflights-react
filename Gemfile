@@ -8,7 +8,6 @@ gem 'mysql2', '>= 0.4.4'
 gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
 gem 'webpacker'
-gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'fast_jsonapi', '~> 1.5'
 # Use Redis adapter to run Action Cable in production
