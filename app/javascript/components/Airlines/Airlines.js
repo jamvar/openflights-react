@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import Airline from './Airline'
+import AirlineCard from './AirlineCard'
 import styled from 'styled-components'
 
 const Home = styled.div`
@@ -39,7 +39,7 @@ const Airlines = () => {
 
   const grid = airlines.map( (airline, index) => {
     return (
-      <Airline
+      <AirlineCard
         key={index}
         attributes={airline.attributes}
       />

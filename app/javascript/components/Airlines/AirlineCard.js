@@ -37,7 +37,7 @@ const LinkWrapper = styled.div`
   }
 `
 
-const Airline = (props) => {
+const AirlineCard = (props) => {
   const {name, image_url, slug} = props.attributes
 
   return (
@@ -51,10 +51,10 @@ const Airline = (props) => {
       </AirlineName>
 
       <LinkWrapper>
-        <Link to={"/" + slug}>View Airline</Link>
+        <Link to={"/airlines/" + slug}>View Airline</Link>
       </LinkWrapper>
     </Card>
   )
 }
 
-export default Airline
+export default AirlineCard
